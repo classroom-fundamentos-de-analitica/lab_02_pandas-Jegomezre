@@ -180,7 +180,7 @@ def pregunta_10():
         for j in sorted(i):
             X+=f'{j}:'
         c2.append(X[:-1])
-    return pd.DataFrame({'_c2': c2}, index=pd.ptos(['A', 'B', 'C', 'D', 'E'], name='_c1'))
+    return pd.DataFrame({'_c2': c2}, index=pd.Series(['A', 'B', 'C', 'D', 'E'], name='_c1'))
 
 
 def pregunta_11():
