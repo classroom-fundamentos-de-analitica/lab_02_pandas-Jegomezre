@@ -158,7 +158,7 @@ def pregunta_09():
     return nuevoDf
 
 
-def pregunta_10():
+def pregunta_10(): 
     """
     Construya una tabla que contenga _c1 y una lista separada por ':' de los valores de
     la columna _c2 para el archivo `tbl0.tsv`.
